@@ -1,0 +1,28 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: #212121;
+    font-family: "Black Ops One";
+    color:  #E4D066;
+}
+.site-title{
+    font-size: 3.5rem;
+}
+.page-title{
+    text-align: center;
+    font-size: 3.5rem;
+}
+.header-wrap{
+    position: relative;
+    margin: 25px 100px 100px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-menu{
+    font-size: 2rem;
+    a{
+        margin: auto 30px;
+    }
+}

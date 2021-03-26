@@ -1,0 +1,57 @@
+.character{
+    position: relative;
+    background-image: radial-gradient(38.41% 35.25% at 59.13% 53%, rgba(196, 196, 196, 0) 0%, #212121 100%), url(/images/unsplash-space.jpg);
+    background-size: cover;
+    margin: auto 100px;
+}
+.greenpoint{
+    display: block;
+    background: #00FF0A;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    margin: 0 20px;
+}
+.redpoint{
+    display: block;
+    background: #d61e1e;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    margin: 0 20px;
+}
+.status-name{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.character-img{
+    border-radius: 20px;
+    margin-right: 25px;
+}
+.character-name{
+    font-size: 3rem;
+}
+.character-alias{
+    display: flex;
+    margin-bottom: 75px;
+    p{
+        margin-left: 5px;
+        font-size: 1.5rem;
+    }
+}
+.div-character-stats{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.character-stats, .character-abilities{
+    width: 300px;
+    p{
+        margin-bottom: 25px;
+        font-size: 2rem;
+    }
+    .title-abilities{
+        font-size: 3rem;
+    }
+}
