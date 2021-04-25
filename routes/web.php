@@ -14,7 +14,12 @@ use App\Http\Controllers\FseachcharacterController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/', [FinalSpaceController::class, 'finalspace']);
+
+// Route::get('/finalspace', [FinalSpaceController::class, 'finalspace']);
+
+Route::get('/', function(){
+    return view('finalspace');
+});
 
 Route::get('/characters', [FscharacterController::class, 'fscharacter']);
 

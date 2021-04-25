@@ -600,3 +600,9 @@ body {
 .character-stats .title-abilities, .character-abilities .title-abilities {
   font-size: 3rem;
 }
+
+.serie-poster {
+  width: 25%;
+  display: block;
+  margin: 50px auto 50px auto;
+}
